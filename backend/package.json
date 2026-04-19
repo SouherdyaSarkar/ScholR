@@ -1,6 +1,12 @@
 {
   "dependencies": {
     "@supabase/supabase-js": "^2.103.3",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
     "firebase": "^12.12.0"
+  },
+  "scripts": {
+    "start": "node server/node/server.js",
+    "dev": "node server/node/server.js"
   }
 }
